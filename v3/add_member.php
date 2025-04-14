@@ -6,7 +6,7 @@ if (!isset($_SESSION['username'])) {
 }
 require_once 'db.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $name = $_POST['emri'];
+    $emri = $_POST['emri'];
     $conn->query("INSERT INTO members (emri) VALUES ('$emri')");
     header("Location: members.php");
     exit();
