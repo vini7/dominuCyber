@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login</title>
+    <title>Login V1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
