@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h2>Login</h2>
+<h2>Login V2</h2>
 <?php if (isset($error)) echo "<p style='color:red;'>$error</p>"; ?>
 <form method="post">
     Username: <input type="text" name="username"><br>
