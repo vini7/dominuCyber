@@ -1,4 +1,4 @@
-<?php
+s<?php
 session_start();
 if (!isset($_SESSION['username'])) {
     header("Location: login.php");
@@ -7,7 +7,7 @@ if (!isset($_SESSION['username'])) {
 require_once 'db.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $emri = $_POST['emri'];
-    $conn->query("INSERT INTO members (emri) VALUES ('$emri')");
+    $conn->query("INSERT INTO users- (emri) VALUES ('$emri')");
     header("Location: members.php");
     exit();
 }
