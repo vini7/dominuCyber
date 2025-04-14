@@ -8,6 +8,7 @@ require_once 'db.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $emri = $_POST['emri'];
     $mbiemri = $_POST['mbiemri'];
+    $mosha = (int)$_POST['mosha'];
     $conn->query("INSERT INTO users (emri,mbiemri,mosha) VALUES ('$emri','$mbiemri','$mosha')");
     header("Location: members.php");
     exit();
