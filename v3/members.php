@@ -14,7 +14,7 @@ $result = $conn->query("SELECT * FROM members");
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Course Members</h1>
+    <h1>Klasa V3</h1>
     <a href="add_member.php">Add Member</a>
     <table>
         <tr><th>ID</th><th>Name</th></tr>
