@@ -22,6 +22,7 @@ $result = $conn->query("SELECT * FROM users");
         <tr>
             <td><?php echo $row['id']; ?></td>
             <td><?php echo $row['emri']; ?></td>
+            <td><?php echo $row['mbiemri']; ?></td>
         </tr>
         <?php endwhile; ?>
     </table>
