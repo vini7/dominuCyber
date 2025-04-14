@@ -7,7 +7,8 @@ if (!isset($_SESSION['username'])) {
 require_once 'db.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $emri = $_POST['emri'];
-    $conn->query("INSERT INTO users (emri) VALUES ('$emri')");
+    $mbiemri = $_POST['mbiemri'];
+    $conn->query("INSERT INTO users (emri,mbiemri) VALUES ('$emri','$mbiemri')");
     header("Location: members.php");
     exit();
 }
@@ -22,6 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <h1>Shto Person</h1>
     <form method="post">
         Emri: <input type="text" name="emri" required><br>
+        Mbiemri: <input type="text" name="mbiemri" required><br>
         <input type="submit" value="Shto">
     </form>
     <p><a href="members.php">Kthehu te lista</a></p>
