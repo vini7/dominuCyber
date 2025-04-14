@@ -16,11 +16,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login V1</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h2>Login</h2>
+<h2>Login V1</h2>
 <?php if (isset($error)) echo "<p style='color:red;'>$error</p>"; ?>
 <form method="post">
     Username: <input type="text" name="username"><br>
