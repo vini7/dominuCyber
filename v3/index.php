@@ -13,6 +13,7 @@ if (!isset($_SESSION['username'])) {
 </head>
 <body>
     <h1>Mirësevjen, <?php echo $_SESSION['username']; ?>!</h1>
+    <p><a href="members.php">Kliko këtu për të parë listën e pjesmarrësve të klasës</a></p>
     <p><a href="logout.php">Logout</a></p>
 </body>
 </html>
