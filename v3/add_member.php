@@ -15,15 +15,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Add Member</title>
+    <title>Shto person</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Add Member</h1>
+    <h1>Shto Person</h1>
     <form method="post">
         Name: <input type="text" name="name" required><br>
         <input type="submit" value="Add">
     </form>
-    <p><a href="members.php">Back to Members</a></p>
+    <p><a href="members.php">Kthehu te lista</a></p>
 </body>
 </html>
