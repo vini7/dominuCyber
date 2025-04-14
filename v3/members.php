@@ -17,7 +17,7 @@ $result = $conn->query("SELECT * FROM users");
     <h1>Klasa V3</h1>
     <a href="add_member.php">Shto pjesëmarrës</a>
     <table>
-        <tr><th>ID</th><th>Emri</th></tr>
+        <tr><th>ID</th><th>Emri</th><th>Mbiemri</th></tr>
         <?php while($row = $result->fetch_assoc()): ?>
         <tr>
             <td><?php echo $row['id']; ?></td>
