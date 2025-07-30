@@ -4,7 +4,7 @@
 #    header("Location: login.php");
 #    exit();
 #}
-$members = ['Adela', 'Donald', 'Kejdi', 'Klejdi', 'Piro', 'Luis'];
+$members = ['Arta', 'Bjanka', 'Altea', 'Andi', 'Alisa', 'Juri'];
 ?>
 <!DOCTYPE html>
 <html>
